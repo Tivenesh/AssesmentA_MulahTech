@@ -1,8 +1,9 @@
 # AssesmentA_MulahTech
- https://bit.ly/mdevassessment02 (backend - 2.5 hours including hosting)
+Backend Assessment: bit.ly/mdevassessment02 (2.5 hours, including hosting)
 
+To run the TitleAggregatorApplication.java file, simply click "Run Java" in your IDE. Once the application starts successfully, open your browser and visit http://localhost:8080/ to view the website.
 
- just press run java on the TitleaggregatorApplication.java file it should run properly and then click the url http://localhost:8080/# to see the website
+For reference, I’ve uploaded a video demonstrating everything working as expected:
+📹 Watch the video here - https://youtu.be/FoTOrcLvWSM
 
-ill upload a video of everything working as it should.Thank You :3  
-https://youtu.be/FoTOrcLvWSM - video link
+Thank you! 😊
