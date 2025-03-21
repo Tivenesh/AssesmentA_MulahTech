@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Verge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional styles for the new sections */
+        .headlines-section {
+            margin-top: 50px;
+            padding: 20px;
+            border-top: 1px solid #333;
+        }
+        
+        .headlines-title {
+            font-size: 28px;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+        
+        .headline-item {
+            display: flex;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #333;
+        }
+        
+        .headline-content {
+            flex: 1;
+        }
+        
+        .headline-title {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+        
+        .headline-title a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .headline-title a:hover {
+            text-decoration: underline;
+        }
+        
+        .headline-meta {
+            font-size: 14px;
+            color: #888;
+        }
+        
+        .headline-date {
+            margin-left: 10px;
+        }
+        
+        .side-logo {
+            position: fixed;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 300px;
+            display: flex;
+            align-items: center;
+            z-index: 100;
+        }
+        
+        .side-logo img {
+            transform: rotate(90deg);
+            width: 150px;
+            height: auto;
+            filter: brightness(0) saturate(100%) invert(11%) sepia(100%) saturate(5876%) hue-rotate(275deg) brightness(90%) contrast(115%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <nav class="top-nav">
+        <div class="logo">
+            <a href="http://localhost:8080/#"><img src="/images/theverge_BIG.jpg" alt="The Verge"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="https://www.theverge.com/tech">Tech</a></li>
+            <li><a href="https://www.theverge.com/reviews">Reviews</a></li>
+            <li><a href="https://www.theverge.com/science">Science</a></li>
+            <li><a href="https://www.theverge.com/entertainment">Entertainment</a></li>
+            <li><a href="https://www.theverge.com/ai-artificial-intelligence">AI</a></li>
+            <li><a href="https://www.theverge.com/cars">More <i class="fas fa-plus"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="container">
+        <div class="side-logo">
+            <img src="/images/theverge_BIG.jpg" alt="The Verge">
+        </div>
+
+        <!-- Featured Article (Hero) -->
+        <section class="featured-article">
+            <div class="featured-image video-container">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Ccc0GvjuqkQ" 
+                    frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="featured-content">
+                <h2 class="featured-title">Netflix has a new plan for games</h2>
+                <p class="featured-subtitle">The streamer's new gaming boss talks about its release strategy and plans to</p>
+            </div>
+        </section>
+
+        <div class="top-stories">
+            <h2 class="section-title">Top Stories</h2>
+            
+            <div class="story-item">
+              <div class="story-number">1</div>
+              <div class="story-content">
+                <h3 class="story-title"><a href="https://www.theverge.com/policy/633397/ftc-bedoya-slaughter-democrat-media">We ran the wrong headline about Trump firing the FTC commissioners</a></h3>
+                <div class="story-meta">
+                  <span class="author">SARAH JEONG</span>
+                  <span class="time">3:54 AM GMT+8</span>
+                  <span class="comments">51</span>
+                </div>
+              </div>
+              <div class="story-image">
+                <a href="https://www.theverge.com/policy/633397/ftc-bedoya-slaughter-democrat-media">
+                  <img src="/images/nerd.jpg" alt="Story image">
+                </a>
+              </div>
+            </div>
+            
+            <div class="story-item">
+              <div class="story-number">2</div>
+              <div class="story-content">
+                <h3 class="story-title"><a href="https://www.theverge.com/decoder-podcast-with-nilay-patel/633200/tesla-takedown-protest-elon-musk-toxic">How the Tesla brand turned so toxic</a></h3>
+                <div class="story-meta">
+                  <span class="author">NILAY PATEL</span>
+                  <span class="time">MAR 20</span>
+                  <span class="comments">210</span>
+                </div>
+              </div>
+              <div class="story-image">
+                <a href="https://www.theverge.com/decoder-podcast-with-nilay-patel/633200/tesla-takedown-protest-elon-musk-toxic">
+                  <img src="/images/tesla.jpg" alt="Tesla brand image">
+                </a>
+              </div>
+            </div>
+            
+            <div class="story-item">
+              <div class="story-number">3</div>
+              <div class="story-content">
+                <h3 class="story-title"><a href="https://www.theverge.com/science/632605/forever-war-with-bird-flu">We've entered a forever war with bird flu</a></h3>
+                <div class="story-meta">
+                  <span class="author">LAUREN LEFFER</span>
+                  <span class="time">MAR 20</span>
+                  <span class="comments">13</span>
+                </div>
+              </div>
+              <div class="story-image">
+                <a href="https://www.theverge.com/science/632605/forever-war-with-bird-flu">
+                  <img src="/images/birdflu.jpg" alt="Bird flu image">
+                </a>
+              </div>
+            </div>
+            
+            <div class="story-item">
+              <div class="story-number">4</div>
+              <div class="story-content">
+                <h3 class="story-title"><a href="https://www.theverge.com/tech/631922/sound-design-interview-hardware-music-home">The beautiful, retro tech of two theatrical sound designers</a></h3>
+                <div class="story-meta">
+                  <span class="author">KRISTEN RADTKE</span>
+                  <span class="time">MAR 20</span>
+                  <span class="comments">8</span>
+                </div>
+              </div>
+              <div class="story-image">
+                <a href="https://www.theverge.com/tech/631922/sound-design-interview-hardware-music-home">
+                  <img src="/images/RetroTech.jpg" alt="Retro tech image">
+                </a>
+              </div>
+            </div>
+            
+            <div class="story-item">
+              <div class="story-number">5</div>
+              <div class="story-content">
+                <h3 class="story-title"><a href="https://www.theverge.com/space/629948/space-science-dei-diversity-nasa-trump">Space science is under threat from the anti-DEI purge</a></h3>
+                <div class="story-meta">
+                  <span class="author">GEORGINA TORBET</span>
+                  <span class="time">MAR 20</span>
+                  <span class="comments">17</span>
+                </div>
+              </div>
+              <div class="story-image">
+                <a href="https://www.theverge.com/space/629948/space-science-dei-diversity-nasa-trump">
+                  <img src="/images/spacescience.jpg" alt="Space science image">
+                </a>
+              </div>
+            </div>
+        </div>
+
+        <!-- New Section: The Verge Headlines (Since January 1, 2022) -->
+        <div class="headlines-section">
+            <h2 class="headlines-title">The Verge Headlines (Since January 1, 2022)</h2>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/22/luigi-mangione-hearing-new-york">Luigi Mangione's hearing was the hottest ticket in New York</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">ELIZABETH LOPATTO</span>
+                        <span class="headline-date">February 22, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/21/apple-intelligence-features-release">Apple Intelligence features are finally arriving next month</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">TOM WARREN</span>
+                        <span class="headline-date">February 21, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/20/meta-ai-assistant-update">Meta's AI assistant can now help you plan your vacation</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">JAMES VINCENT</span>
+                        <span class="headline-date">February 20, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/19/samsung-galaxy-z-fold-6-review">Samsung Galaxy Z Fold 6 review: finally perfected</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">ALLISON JOHNSON</span>
+                        <span class="headline-date">February 19, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/18/spacex-starship-mars-mission">SpaceX announces timeline for first crewed Mars mission</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">LOREN GRUSH</span>
+                        <span class="headline-date">February 18, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/17/google-pixel-9-pro-fold-leak">Google Pixel 9 Pro Fold leaks reveal radical new design</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">CHRIS WELCH</span>
+                        <span class="headline-date">February 17, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/16/nvidia-ai-supercomputer-blackwell">Nvidia's new AI supercomputer is as powerful as 10,000 RTX 4090s</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">TOM WARREN</span>
+                        <span class="headline-date">February 16, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/15/sony-playstation-6-announcement">Sony officially announces PlayStation 6 for 2026 release</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">SEAN HOLLISTER</span>
+                        <span class="headline-date">February 15, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/14/microsoft-windows-12-announcement">Microsoft announces Windows 12 with deep AI integration</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">TOM WARREN</span>
+                        <span class="headline-date">February 14, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/13/apple-vision-pro-2-leak">Apple Vision Pro 2 details leak: lighter design, longer battery life</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">VICTORIA SONG</span>
+                        <span class="headline-date">February 13, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/12/tesla-model-2-reveal">Tesla finally reveals its $25,000 Model 2</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">ANDREW J. HAWKINS</span>
+                        <span class="headline-date">February 12, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/11/openai-gpt-5-multimodal">OpenAI's GPT-5 can now design and 3D print objects from text prompts</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">JAMES VINCENT</span>
+                        <span class="headline-date">February 11, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/10/amazon-drone-delivery-nationwide">Amazon expands drone delivery service nationwide</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">JAY PETERS</span>
+                        <span class="headline-date">February 10, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/9/netflix-gaming-console-announcement">Netflix announces dedicated gaming console to compete with Xbox and PlayStation</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">ALEX CRANZ</span>
+                        <span class="headline-date">February 9, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/8/starlink-global-coverage">SpaceX's Starlink now covers 99% of Earth's populated areas</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">LOREN GRUSH</span>
+                        <span class="headline-date">February 8, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/7/meta-neural-interface">Meta unveils neural interface for controlling VR without controllers</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">ADI ROBERTSON</span>
+                        <span class="headline-date">February 7, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/6/apple-m4-chip-announcement">Apple announces M4 chip with dedicated AI neural engine</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">MONICA CHIN</span>
+                        <span class="headline-date">February 6, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/5/google-search-ai-redesign">Google Search gets its biggest AI redesign in company history</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">DAVID PIERCE</span>
+                        <span class="headline-date">February 5, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/4/microsoft-xbox-cloud-gaming-expansion">Microsoft's Xbox Cloud Gaming comes to smart TVs without additional hardware</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">TOM WARREN</span>
+                        <span class="headline-date">February 4, 2025</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="headline-item">
+                <div class="headline-content">
+                    <h3 class="headline-title"><a href="https://www.theverge.com/2025/2/3/samsung-transparent-display-tv">Samsung's transparent display TV will go on sale this summer</a></h3>
+                    <div class="headline-meta">
+                        <span class="headline-author">CHRIS WELCH</span>
+                        <span class="headline-date">February 3, 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
